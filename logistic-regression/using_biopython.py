@@ -19,6 +19,7 @@ for i in all_data:
 test_xs = xs.pop()
 test_ys = ys.pop()
 
+
 def show_progress(iteration, loglikelihood):
     print("Iteration:", iteration, "Log-likelihood function:", loglikelihood)
 
